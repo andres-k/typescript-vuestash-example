@@ -1,4 +1,4 @@
-# ts-vuex-test
+# ts-stash-test
 
 > Test project for vuex+typescript
 
