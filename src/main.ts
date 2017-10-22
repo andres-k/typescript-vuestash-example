@@ -1,7 +1,12 @@
-import Vue from 'vue'
-import App from './components/App.vue'
+import * as Vue from 'vue';
+import { AppComponent } from './components/app/';
 
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+// Vue.use(Stash);
+
+new Vue(new AppComponent()).$mount('#app');
+
+// new Vue({
+//   el: '#app',
+//   template: "<app></app>",
+//   // render: h => h(AppComponent)
+// })
